@@ -7,7 +7,7 @@ node_js:
 
 env:
   global:
-    - secure: nn+5H9IJxOQKwbH1fEk8qu4yTmhoaVavQZjvz3Mos9PSWn3vdNYzp1T1+AGcOkGbzPrgsz6ZfpKveedNtX3Jlco+MQ4F0OVuJYovuIf+YAXV8R+aUT7Xm6KKOBUeyKIcSoFGtCxXd/wqFIu0bg9jyypuwzXQ58M0i3XSunIyGlL8cfnZuCIbAMKMVGpwRtIMg2ktPI5CdxZLwleltf1ms2OV7KO5Xix3A8+YkDreR6OWoizfcU1AAk8W77L/YTnirytSwSkfdmfaKGPlatgy2HIaThOzfgzQVbshB75MoLLircPNwTwllZ8w5zUFDMDPAva0F9FUhvDSOfYO5hF+mA==
+    - secure: flvjmTVS6+0pPPMuv5Tgqe5d6pv6VSwpYqdUmN/gP7tzm4RLO37aO7Pg5ECjO70WzJUCS2DOosPIYMv+e3b2uIRheK+WwDbtAaW1sO6qYj0H5K+sA2qNA3UI4PH0Z65W0AaZZu8rEFFV1huRECnW9XzRkoidcysKE80YRrFFM4hbY7my58R1Ejf7Jgrbi03ZvbG36DOCQrbUsCHqnxeXQpWux0mOE17Rk8JigDBcgcmXNU5qS9St/gRnIa5HAMUevqAUf/smHcaqJr39TGiAcrq4bXSWJLIMbx8jFVD5uiMHwyzotzLcJWHKMiZLm3K4cpLtqhoIJ8RePBuVFd3ApQ==
 
   matrix:
     - M1=ONE
@@ -16,16 +16,16 @@ build:
  # pre_ci:
   #  - docker build -t=shippabledocker/hitchcock4_sample_node .
 
-  #pre_ci_boot:
-   # image_name: shippabledocker/hitchcock4_sample_node
-    #image_tag: latest
-    #pull: false
-    #options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
+   pre_ci_boot:
+    image_name: shippabledocker/hitchcock4_sample_node_secure_env
+    image_tag: latest
+    pull: true
+    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
   ci:
     - ps -eax
     - ls -al
-    - echo "$FOO"
+    - echo "&g*g"
 
   #post_ci:
    # - docker push shippabledocker/hitchcock4_sample_node
