@@ -7,9 +7,7 @@ node_js:
 
 env:
   global:
-  
-    - secure: aQI6S/M+O9HCgVbCXL76rdOxzxsLzIn5cppd+yq9BHfjrj5kvbOU//BYQDC3R867Vk03xm9sL0m/4rzgO5t9W+zkJ8Y5ml1l0FlNbz1CVy+bR3S7kS61lpAu/lZrYS5U/iPnxe4FYc/aPgqbwvqrgFQV4ZEyASRXGygM3J7tL6DIuMQOQ4Oyn6u5t8pthDN9pl7rcIO5d3bFjRXNvtXNZ7wrAZuZeXq0HqR47NA+rPHwGPiXUlP6ig3tolLRVZ+1c5yX+lMqzOAR/KR/4cCDKwcnkhj6H4x5G9Gn44DDsWQ1eMuEgNxvCI7BknwNamCcw0EvYWjz9yvcE10//TaYmA==
-
+    - secure: zQ4nCDWSfAajK49dkh1sNhUCrBQCLEy3YN588kdzu8RCinrFBB1fkZHfz6d9pyQsbPbAye04y2ZiJtNeUmJKkSiHY4F2yu9YoMPrFTe66VOd0KEDE4TjY6huDZLB8mlCQmlX/xKbyVnS1GUv0WSe1HUIA3X3uyGtiHiTKrBe5oy+MTv9HOQBRLtJCexzaacqo8I3L9f1xUwsIR8bEwaqfHjj22JXYijFdX42RZdJM4+/NBKsJkOEUy84s6pueod0xjYtjjoF2hYSYD6DkE7BzoJLA1IG898bvOu3r95EO9m7GwN7N4RIokDwROpEG8gUJ6uKHYG349m44n20Ii83Eg==
 
   matrix:
     - M1=ONE
@@ -27,7 +25,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - echo "$FOO"   
+    - echo "$*FOO"   
 
   #post_ci: 
    # - docker push shippabledocker/hitchcock4_sample_node
