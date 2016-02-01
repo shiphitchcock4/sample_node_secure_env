@@ -25,7 +25,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - echo "&&g*g"
+   # - echo "&&g*g"
 
   #post_ci:
    # - docker push shippabledocker/hitchcock4_sample_node
