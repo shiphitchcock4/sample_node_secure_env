@@ -29,7 +29,7 @@ build:
     - ls -al
     - echo "$FOO"   
 
-  #post_ci:
+  #post_ci: 
    # - docker push shippabledocker/hitchcock4_sample_node
 
 #integrations:
