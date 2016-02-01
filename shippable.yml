@@ -30,10 +30,10 @@ build:
   #post_ci:
    # - docker push shippabledocker/hitchcock4_sample_node
 
-#integrations:
- # hub:
-  #  - integrationName: ship-docker
-   #   type: docker
+integrations:
+  hub:
+    - integrationName: ship-docker
+     type: docker
       #branches:
         #only:
         #  - master 
