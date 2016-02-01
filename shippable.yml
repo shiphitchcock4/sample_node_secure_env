@@ -36,5 +36,5 @@ build:
   #  - integrationName: ship-docker
    #   type: docker
       #branches:
-        #only:
+        #only: 
         #  - master  
