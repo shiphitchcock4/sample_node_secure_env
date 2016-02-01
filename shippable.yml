@@ -7,8 +7,8 @@ node_js:
 
 env:
   global:
-    - secure: XGmca+9s/cQIxb64Jc4/9JWTyjWxwwJ8Ag6z/gzk7BzkuPDYpCMG11OpNlPbsjC0AP2vco7P+7uYHgEi3icRt51nzdNBXV4IsqwsZEFOzr2JOJ7yvbtifHDTCS9irbZSiAOPi/Ci69KSCb1MvMJFOFZtf142zKpCVyuGuliGPzVAJWvrHZtI0D/cvgI2VTS8rA/WLk284X8268Zl/wvc/0xDBVfJip+++KaDEDjmX6G8BNjCXsqo1NzWNPA7PEHNcZtU6aKWXaWL0rmAapfo9j05M0VmR+qHdlgXU2qjqerlwWjliaxtDKvZB9BrN5iRQlLu1XYVj+chaLaqcOcUOg==
-    
+    - secure: xsH7/dSUuE1qZPm1c2V3MAG+K+SqzFlYiNTuc2mrNZEojSUxFhZBjNqnCs6hN5luyf+0BsG6sjUhvsCO3CW+zm4vojvcb6QmBLb+Egw/KpoBgav3XNMqtfHS6PvAgjLPydjZM8/6V1pfD8x0HR5pua+Tip7MuopM0VXz6IEsKmd+70SB/9Wh1Gfsr7eFzYUE3Ev56tFdCQZpfSWZ1Ab87oH08p9M0VdGluxmQTuyZINp8XQICdPgYlavyiJvLsqn+EjfmdilC8ktnC6YuZYhjj/02yWZky6SLZgzAQPECuDWD7LTOyRAAqfqaPGJa6chkp8dyqot3B1smG8WIoxvBQ==
+
 
   matrix:
     - M1=ONE
