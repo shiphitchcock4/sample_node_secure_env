@@ -25,7 +25,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-   # - echo "$*f*"
+    - echo "$FOO"
 
   #post_ci:
    # - docker push shippabledocker/hitchcock4_sample_node
