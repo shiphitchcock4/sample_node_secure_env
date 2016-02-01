@@ -7,8 +7,7 @@ node_js:
 
 env:
   global:
-    - secure: flvjmTVS6+0pPPMuv5Tgqe5d6pv6VSwpYqdUmN/gP7tzm4RLO37aO7Pg5ECjO70WzJUCS2DOosPIYMv+e3b2uIRheK+WwDbtAaW1sO6qYj0H5K+sA2qNA3UI4PH0Z65W0AaZZu8rEFFV1huRECnW9XzRkoidcysKE80YRrFFM4hbY7my58R1Ejf7Jgrbi03ZvbG36DOCQrbUsCHqnxeXQpWux0mOE17Rk8JigDBcgcmXNU5qS9St/gRnIa5HAMUevqAUf/smHcaqJr39TGiAcrq4bXSWJLIMbx8jFVD5uiMHwyzotzLcJWHKMiZLm3K4cpLtqhoIJ8RePBuVFd3ApQ==
-
+    
   matrix:
     - M1=ONE
 
@@ -25,7 +24,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-   # - echo "&&g*g"
+   # - echo ""
 
   #post_ci:
    # - docker push shippabledocker/hitchcock4_sample_node
